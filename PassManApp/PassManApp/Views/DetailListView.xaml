@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Detail hesla"
+             x:Class="PassManApp.Views.DetailListView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Odstranit" Clicked="Delete_Clicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Název"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="nameEntry"
+               Placeholder="Název" />
+            <Label Text="Uživatelské jméno"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="usernameEntry"
+               Placeholder="Uživatelské jméno" />
+            <Label Text="Heslo"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="passwordEntry"
+               Placeholder="Heslo" />
+            <Label Text="Webová stránka"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="webEntry"
+               Placeholder="Webová stránka" />
+            <Label Text="Poznámka"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="noteEntry"
+               Placeholder="Poznámka" />
+            <Button Text="Uložit"
+                Clicked="saveButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

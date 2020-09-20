@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Generátor náhodných hesel"
+             x:Class="PassManApp.Views.GeneratorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="countEntry" Placeholder="Počet znaků" Keyboard="Numeric" VerticalOptions="CenterAndExpand"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                
+                <Label Text="Malá písmena"  FontSize="Body" VerticalOptions="Start" Grid.Row="0" Grid.Column="0"/>
+                <Switch IsToggled="false" Toggled="switch1_Toggled"  VerticalOptions="End" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Velká písmena" FontSize="Body" VerticalOptions="Start" Grid.Row="1" Grid.Column="0"/>
+                <Switch IsToggled="false" Toggled="switch2_Toggled" VerticalOptions="End" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Číslice" FontSize="Body" VerticalOptions="Start" Grid.Row="2" Grid.Column="0"/>
+                <Switch IsToggled="false" Toggled="switch3_Toggled" VerticalOptions="End" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Speciální znaky" FontSize="Body" VerticalOptions="Start" Grid.Row="3" Grid.Column="0"/>
+                <Switch IsToggled="false" Toggled="switch4_Toggled" VerticalOptions="End" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+            <Entry x:Name="passwordEntry" Placeholder="" VerticalOptions="CenterAndExpand"/>
+            <Button Text="Generovat" Clicked="generateButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
