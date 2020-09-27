@@ -17,7 +17,7 @@ namespace PassManApp
 				bool flag = App.database == null;
 				if (flag)
 				{
-					App.database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "data.db3"));
+					App.database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db.db3"));
 				}
 				return App.database;
 			}

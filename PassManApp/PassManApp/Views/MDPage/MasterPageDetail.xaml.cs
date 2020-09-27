@@ -15,6 +15,12 @@ namespace PassManApp.Views.MDPage
         public MasterPageDetail()
         {
             InitializeComponent();
+            Database.PassKey = "default";
+        }
+
+        private void button_Clicked(object sender, EventArgs e)
+        {
+            Database.PassKey = masterKeyEntry.Text;
         }
     }
 }
