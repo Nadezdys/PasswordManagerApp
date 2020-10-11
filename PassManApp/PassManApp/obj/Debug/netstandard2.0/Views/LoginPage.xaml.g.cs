@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PassManApp.Views.MDPage.MasterPageDetail.xaml", "Views/MDPage/MasterPageDetail.xaml", typeof(global::PassManApp.Views.MDPage.MasterPageDetail))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PassManApp.Views.LoginPage.xaml", "Views/LoginPage.xaml", typeof(global::PassManApp.LoginPage))]
 
-namespace PassManApp.Views.MDPage {
+namespace PassManApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MDPage\\MasterPageDetail.xaml")]
-    public partial class MasterPageDetail : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LoginPage.xaml")]
+    public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry masterKeyEntry;
@@ -24,7 +24,7 @@ namespace PassManApp.Views.MDPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MasterPageDetail));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
             masterKeyEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "masterKeyEntry");
             button = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "button");
         }

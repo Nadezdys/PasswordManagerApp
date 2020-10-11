@@ -6,11 +6,14 @@
              mc:Ignorable="d"
              Title="Seznam"
              x:Class="PassManApp.ListPage">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Nový" Clicked="New_Clicked" />
-    </ContentPage.ToolbarItems>
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="AddIcon.png" Priority="0" Order="Primary" Text="Nový" Clicked="New_Clicked" />
+        <ToolbarItem Icon="SettingsIcon.png" Priority="1" Order="Primary" Text="Nastavení" Clicked="Settings_Clicked" />
+        <ToolbarItem Priority="2" Order="Secondary" Text="Generátor" Clicked="Generator_Clicked" />
+        <ToolbarItem Priority="3" Order="Secondary" Text="About" Clicked="About_Clicked" />
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="List"

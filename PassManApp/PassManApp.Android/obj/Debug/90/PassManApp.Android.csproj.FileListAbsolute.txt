@@ -469,3 +469,6 @@ C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\9
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\res\drawable\addicon.png
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\res\drawable\settingsicon.png
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp.Android\obj\Debug\90\res\drawable\trashicon.png

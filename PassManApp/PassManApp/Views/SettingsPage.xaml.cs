@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PassManApp.Views.MDPage
+namespace PassManApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterPageDetail : ContentPage
+    public partial class SettingsPage : ContentPage
     {
-        public MasterPageDetail()
+        public SettingsPage()
         {
             InitializeComponent();
-            Database.PassKey = "default";
         }
 
-        private void button_Clicked(object sender, EventArgs e)
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
-            Database.PassKey = masterKeyEntry.Text;
+
         }
     }
 }

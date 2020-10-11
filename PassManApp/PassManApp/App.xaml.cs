@@ -1,7 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using PassManApp.Views.MDPage;
 using System.IO;
 
 namespace PassManApp
@@ -25,16 +24,24 @@ namespace PassManApp
 		public App()
 		{
 			this.InitializeComponent();
-			base.MainPage = new NavigationPage(new MasterPage());
+			base.MainPage = new NavigationPage(new LoginPage());
 		}
 		protected override void OnStart()
 		{
+			Application.Current.MainPage = new NavigationPage(new LoginPage());
 		}
 		protected override void OnSleep()
 		{
 		}
-		protected override void OnResume()
+		protected override async void OnResume()
 		{
+			var nav = MainPage.Navigation;
+
+			await nav.PopToRootAsync(true);
+
+			await nav.PushAsync(new LoginPage());
+
 		}
 	}
+	
 }

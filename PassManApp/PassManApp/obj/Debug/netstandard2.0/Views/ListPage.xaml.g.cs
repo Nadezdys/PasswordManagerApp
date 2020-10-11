@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PassManApp.Views.MDPage.MasterPage.xaml", "Views/MDPage/MasterPage.xaml", typeof(global::PassManApp.Views.MDPage.MasterPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PassManApp.Views.ListPage.xaml", "Views/ListPage.xaml", typeof(global::PassManApp.ListPage))]
 
-namespace PassManApp.Views.MDPage {
+namespace PassManApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MDPage\\MasterPage.xaml")]
-    public partial class MasterPage : global::Xamarin.Forms.MasterDetailPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ListPage.xaml")]
+    public partial class ListPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::PassManApp.Views.MDPage.MasterPageMaster MPage;
+        private global::Xamarin.Forms.ListView listView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MasterPage));
-            MPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::PassManApp.Views.MDPage.MasterPageMaster>(this, "MPage");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListPage));
+            listView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listView");
         }
     }
 }

@@ -9,6 +9,7 @@ namespace PassManApp
 {
     class Encryption
     {
+       
         private const int Keysize = 256;
 
         private const int DerivationIterations = 1000;

@@ -7,8 +7,8 @@
              Title="Generátor náhodných hesel"
              x:Class="PassManApp.Views.GeneratorPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name="countEntry" Placeholder="Počet znaků" Keyboard="Numeric" VerticalOptions="CenterAndExpand"/>
+        <StackLayout Margin="20,0,20,0">
+            <Entry x:Name="countEntry" Placeholder="Počet znaků" Keyboard="Numeric"/>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*" />
@@ -29,7 +29,7 @@
                 <Label Text="Speciální znaky" FontSize="Body" VerticalOptions="Start" Grid.Row="3" Grid.Column="0"/>
                 <Switch IsToggled="false" Toggled="switch4_Toggled" VerticalOptions="End" Grid.Row="3" Grid.Column="1"/>
             </Grid>
-            <Entry x:Name="passwordEntry" Placeholder="" VerticalOptions="CenterAndExpand"/>
+            <Entry x:Name="passwordEntry" Placeholder=""/>
             <Button Text="Generovat" Clicked="generateButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

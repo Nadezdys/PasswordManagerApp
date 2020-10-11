@@ -41,5 +41,20 @@ namespace PassManApp
 		{
 			base.Navigation.PushAsync(new NewItemPage());
 		}
+
+		private void Settings_Clicked(object sender, EventArgs e)
+		{
+			base.Navigation.PushAsync(new SettingsPage());
+		}
+
+		private void Generator_Clicked(object sender, EventArgs e)
+		{
+			base.Navigation.PushAsync(new GeneratorPage());
+		}
+
+		private void About_Clicked(object sender, EventArgs e)
+		{
+			base.Navigation.PushAsync(new AboutPage());
+		}
 	}
 }

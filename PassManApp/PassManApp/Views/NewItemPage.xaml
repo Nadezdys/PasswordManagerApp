@@ -7,30 +7,20 @@
              Title="Nové heslo"
              x:Class="PassManApp.Views.NewItemPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Název"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" />
+        <StackLayout Margin="20,0,20,0">
+            <Label Text="Název"/>
             <Entry x:Name="nameEntry"
                Placeholder="Název" />
-            <Label Text="Uživatelské jméno"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" />
+            <Label Text="Uživatelské jméno"/>
             <Entry x:Name="usernameEntry"
                Placeholder="Uživatelské jméno" />
-            <Label Text="Heslo"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" />
+            <Label Text="Heslo" />
             <Entry x:Name="passwordEntry"
                Placeholder="Heslo" />
-            <Label Text="Webová stránka"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" />
+            <Label Text="Webová stránka"/>
             <Entry x:Name="webEntry"
                Placeholder="Webová stránka" />
-            <Label Text="Poznámka"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" />
+            <Label Text="Poznámka"/>
             <Entry x:Name="noteEntry"
                Placeholder="Poznámka" />
             <Button Text="Přidat"

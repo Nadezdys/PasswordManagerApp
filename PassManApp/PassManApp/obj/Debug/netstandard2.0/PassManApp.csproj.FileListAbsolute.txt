@@ -1,16 +1,11 @@
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\PassManApp.deps.json
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.AssemblyInfoInputs.cache
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.AssemblyInfo.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.csprojAssemblyReference.cache
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\ListPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\DetailListView.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\GeneratorPage.xaml.g.cs
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\MDPage\MasterPage.xaml.g.cs
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\MDPage\MasterPageDetail.xaml.g.cs
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\MDPage\MasterPageMaster.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.csproj.CoreCompileInputs.cache
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\ref\PassManApp.dll
@@ -19,3 +14,7 @@ C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstanda
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\ref\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.pdb
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
