@@ -7,10 +7,8 @@ C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstanda
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\DetailListView.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\GeneratorPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.csproj.CoreCompileInputs.cache
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\ref\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\PassManApp.pdb
-C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\ref\PassManApp.dll
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.pdb
@@ -18,3 +16,10 @@ C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstanda
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.csproj.CopyComplete
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\PassManApp.csproj.CoreCompileInputs.cache
+C:\Users\matej\source\repos\PassManApp\PassManApp\PassManApp\obj\Debug\netstandard2.0\XamlC.stamp

@@ -23,7 +23,7 @@
             <Label Text="Poznámka"/>
             <Entry x:Name="noteEntry"
                Placeholder="Poznámka" />
-            <Button Text="Přidat"
+            <Button Text="Přidat" x:Name="saveBtn"
                 Clicked="saveButton_Clicked" />
         </StackLayout>
     </ContentPage.Content>

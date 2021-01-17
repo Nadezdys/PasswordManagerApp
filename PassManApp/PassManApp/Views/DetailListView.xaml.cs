@@ -1,4 +1,5 @@
 ﻿using PassManApp.Models;
+using PassManApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,12 @@ namespace PassManApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetailListView : ContentPage
     {
-		private DataClass data;
-			public DetailListView(DataClass data)
+		private PasswordData data;
+		WebAPIService service;
+		public DetailListView(PasswordData data)
 			{
 				this.InitializeComponent();
+				service = new WebAPIService();
 				this.data = data;
 				this.nameEntry.Text = data.Title;
 				this.usernameEntry.Text = data.Username;
@@ -27,7 +30,8 @@ namespace PassManApp.Views
 
 			private void Delete_Clicked(object sender, EventArgs e)
 			{
-				App.Database.DeleteData(this.data);
+			//App.Database.DeleteData(this.data);
+			service.DeleteDataApi(this.data);
 				base.Navigation.PopAsync();
 			}
 
@@ -45,9 +49,11 @@ namespace PassManApp.Views
 					this.data.Password = this.passwordEntry.Text;
 					this.data.Webpage = this.webEntry.Text;
 					this.data.Note = this.noteEntry.Text;
-					App.Database.AlterData(this.data);
+				//App.Database.AlterData(this.data);
+				service.AlterDataApi(this.data);
 					base.DisplayAlert("Alert", "Data byla uložena", "OK");
 				}
+				base.Navigation.PopAsync();
 			}
 	}
 }

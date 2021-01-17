@@ -8,7 +8,9 @@
              x:Class="PassManApp.LoginPage">
     <ContentPage.Content>
         <StackLayout Margin="20,10,20,0">
-            <Label Text="Zadejte heslo pro šifrování"/>
+            <Label Text="Zadejte uživ.jméno"/>
+            <Entry x:Name="usernameEntry"/>
+            <Label Text="Zadejte heslo"/>
             <Entry x:Name="masterKeyEntry" IsPassword="True"/>
             <Button x:Name="button" Text="Potvrdit" Clicked="button_Clicked"/>
         </StackLayout>

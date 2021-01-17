@@ -6,11 +6,21 @@
              mc:Ignorable="d"
              x:Class="PassManApp.Views.SettingsPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Dark theme"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Switch IsToggled="false" />
+        <StackLayout Margin="20,0,20,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Dark theme"  FontSize="Body" VerticalOptions="Start" Grid.Row="0" Grid.Column="0"/>
+                <Switch IsToggled="false" Toggled="Switch_Toggled"  VerticalOptions="End" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
